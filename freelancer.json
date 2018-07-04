@@ -1,0 +1,27 @@
+{
+    "webdevelopers": [{
+            "id": 1,
+            "name": "ramesh",
+            "location": "chennai",
+            "description": "Web Developer with 15 years of UI Design Experience",
+            "costing": "USD:50 per/hour",
+            "rating": "4.2 of(10 reviews)"
+        },
+        {
+            "id": 2,
+            "name": "rakesh",
+            "location": "Pune",
+            "description": "CSS Designer with 5 years in MNC ",
+            "costing": "USD:25 per/hour",
+            "rating": "4.0 of(22 reviews)"
+        },
+        {
+            "id": 3,
+            "name": "suresh",
+            "location": "Hyderabad",
+            "description": "Python specialist with 4 yeras of Experience",
+            "costing": "USD:35 per/hour",
+            "rating": "4.1 of(31 reviews)"
+        }
+    ]
+}

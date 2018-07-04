@@ -1,0 +1,19 @@
+<div class="card-deck" style="margin-top: 20px">
+    <div class="card border-success text-white bg-info" *ngFor='let eachDeveloper of webDevList let idx=index'>
+        <div class='card-header bg-dark'>
+            <img src="{{person}}" alt='person' style='float: left;' class="img-fluid img-thumbnail smlimage">
+            <p class="card-text text-right">{{eachDeveloper.rating}}</p>
+
+        </div>
+        <div class="card-body">
+            <h5 class="card-title text-right">{{eachDeveloper.name}}</h5>
+            <h6 class="card-subtitle text-right ">{{eachDeveloper.location}}</h6>
+            <p class="card-text">{{eachDeveloper.description}}</p>
+        </div>
+        <div class="card-footer w-100">
+            <small class="text-white"> 
+                    <p>Rating:{{eachDeveloper.costing}}</p>
+            </small></div>
+
+    </div>
+</div>

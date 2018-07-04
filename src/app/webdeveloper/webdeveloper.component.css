@@ -1,0 +1,11 @@
+.panel {
+    height: 200px;
+    background-color: antiquewhite;
+    border: 2px solid gold;
+    border-radius: 5px;
+}
+
+.smlimage {
+    width: 100px;
+    height: 100px;
+}

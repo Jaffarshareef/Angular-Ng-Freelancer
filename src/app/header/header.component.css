@@ -1,0 +1,21 @@
+.logo {
+    float: left;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    height: 100px;
+}
+
+.headBkground {
+    background-image: linear-gradient(grey, yellow, green, olive);
+    background-clip: content-box;
+}
+
+ul>li {
+    display: inline;
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
